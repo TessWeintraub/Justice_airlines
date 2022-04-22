@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+  height: 50px;
+  padding: 0.5rem 0;
+}
+.nav h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav img {
+  height: 2rem;
+}
+.nav__container{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__container svg{
+  fill: white;
+  cursor: pointer;
+}
